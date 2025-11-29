@@ -2,7 +2,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 // Адрес твоего API (локальный вариант A)
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://unabnegating-overfaithfully-emogene.ngrok-free.dev";
 const useMock = false;
 
 // Элементы страницы
