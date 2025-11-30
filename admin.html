@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Администрирование — Луч света</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<div id="admin-panel">
+
+    <h1>Администрирование</h1>
+
+    <div class="admin-menu">
+        <button onclick="openSections()">📁 Разделы</button>
+        <button onclick="openMaterials()">📄 Материалы</button>
+        <button onclick="openUpload()">📤 Загрузить файл</button>
+        <button onclick="openFiles()">📦 Файлы в R2</button>
+        <button onclick="goBack()">↩️ Назад</button>
+    </div>
+
+    <div id="admin-content"></div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
