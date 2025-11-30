@@ -2,7 +2,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 // Адрес твоего API (локальный вариант A)
-const API_BASE = "https://t6aijm6rb0.loclx.io";
+const API_BASE = "https://me1-01hx.onrender.com";
 const useMock = false;
 
 // Элементы страницы
